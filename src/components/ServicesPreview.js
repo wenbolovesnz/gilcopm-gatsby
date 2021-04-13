@@ -2,13 +2,6 @@ import React from 'react'
 import '../styles/ServicesPreview.css'
 import CardItem from './CardItem'
 
-//import CardImage1 from '../card-image1.jpg'
-//import CardImage2 from 'card-image2.jpg'
-//import CardImage3 from 'card-image3.jpg'
-//import CardImage4 from 'card-image4.jpg'
-
-import { AnchorLink } from "gatsby-plugin-anchor-links";
-
 function Services() {
     return (
         <>

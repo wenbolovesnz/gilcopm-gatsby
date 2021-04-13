@@ -3,7 +3,6 @@ import '../styles/content.css'
 import {Button} from '../components/button'
 import { Link } from 'gatsby'
 import Image from "../components/Image"
-//import { Link as Link2 } from 'gatsby-react-router-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCoffee,
@@ -22,11 +21,10 @@ import {
 function Content() {
     return (
         <>
+        
             <div className='image-container'>
+            <Image src="Akl bridge.jpg" objectFit='cover' className='background-photo'/>
                 <div className="image-tint">
-                    <Image 
-                    src="Akl\ bridge.jpg"
-                    />
                     <div className="image-text image-section">
                         <h1>We take the hassle out of property management</h1>
                     </div>

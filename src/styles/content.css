@@ -1,14 +1,25 @@
 .image-container{
-    background-image: url(../images/Akl\ bridge.jpg);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
     width: 100%;
     height: 75vh;
-    background-size: cover;
 }
+
+.background-photo{
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+
 
 .image-tint{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.233);
     padding: 50px 10%;
     display: flex;
     justify-content: space-between;

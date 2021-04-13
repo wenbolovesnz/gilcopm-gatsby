@@ -22,6 +22,7 @@ function Contact() {
     return (
         <>
             <div className="contact-wrapper" id='contacts-page'>
+                <Image src='Akl bridge.jpg' className='background-photo'/>
                 <div className="tint">
 
                 
@@ -39,7 +40,7 @@ function Contact() {
                     </div>
 
                     <div className="profile-wrapper">
-                        <Image src={Profile} className='profile' />
+                        <Image src='Leonard.jpg' objectFit='cover' className='profile' />
                         <p>Leonard Gildenhuys</p>
                     </div>
                 </div>
