@@ -25,7 +25,6 @@ p{
 }
 
 .img-wrapper{
-    background-image: url(../images/house2.jpg);
     width: 100%;
     padding: 25px 10%;
     display: flex;
@@ -45,6 +44,10 @@ p{
     list-style-position: inside;
 
 }
+.tenants-portal-container{
+    margin-bottom: 20px;
+}
+
 .tenants-responsibilities h4{
     margin-bottom: 10px;
 }

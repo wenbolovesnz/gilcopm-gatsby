@@ -2,6 +2,7 @@ import * as React from "react"
 import NavBar from '../components/navbar'
 import {Button} from '../components/button'
 import '../styles/owners.css'
+import Image from '../components/Image'
 
 
 const Owners = () => {
@@ -9,23 +10,28 @@ const Owners = () => {
     <div>
         <NavBar/>
         <div className="owners-page">
+            <div className="banner">
+                <Image src='house2.jpg' className='background-photo'/>
                 <div className="img-wrapper">
-                    <div className="owners-title">
-                        <h1>For Owners</h1>
-                        <p>We look after your property as if it were our own</p>
-                    </div>
-                    <div className="button-container">
-                    <a href='https://www.renthq.net/landlord.aspx?co=Gilco+Property+Management'>
-                        <Button
-                            className='btns'
-                            buttonStyle='btn--primary'
-                            buttonSize='btn--wide'
-                            >
-                            Owners Portal
-                        </Button>
-                    </a>
-                    </div>
-                </div>
+                   
+                   <div className="owners-title">
+                       <h1>For Owners</h1>
+                       <p>We look after your property as if it were our own</p>
+                   </div>
+                   <div className="button-container">
+                   <a href='https://www.renthq.net/landlord.aspx?co=Gilco+Property+Management'>
+                       <Button
+                           className='btns'
+                           buttonStyle='btn--primary'
+                           buttonSize='btn--wide'
+                           >
+                           Owners Portal
+                       </Button>
+                   </a>
+                   </div>
+               </div>
+            </div>
+                
 
                 <div className="service-content">
                     <h1>Services</h1>

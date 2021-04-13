@@ -2,15 +2,18 @@ import * as React from "react"
 import NavBar from '../components/navbar'
 import {Button} from '../components/button'
 import '../styles/tenants.css'
-//import '../styles/index.css'
-//import "../styles/services.css"
+import Image from '../components/Image'
+
 
 const Tenants = () => {
   return (
     <div>
         <NavBar/>
         <div className="tenants-page">
-                <div className="img-wrapper">
+            <div className="banner">
+            <Image src='house2.jpg' className='background-photo'/>
+
+            <div className="img-wrapper">
                     <div className="tenants-title">
                         <h1>For Tenants</h1>
                         <p>Making our property your home</p>
@@ -30,21 +33,26 @@ const Tenants = () => {
 
                     </div>
                 </div>
+            </div>
+                
 
                 <div className='tenants-page-container'>
                 
 
                     <div className='tenants-responsibilities'>
-                    <a href='https://www.RentHQ.net/Tenant.aspx?co=Gilco+Property+Management'>
-                        <Button
-                            className='btns'
-                          buttonStyle='btn--primary'
-                            buttonSize='btn--large'
-                            
-                            >
-                            Tenants Portal
-                        </Button>
-                    </a>
+                    <div className="tenants-portal-container">
+                        <a href='https://www.RentHQ.net/Tenant.aspx?co=Gilco+Property+Management'>
+                            <Button
+                                className='btns'
+                            buttonStyle='btn--primary'
+                                buttonSize='btn--large'
+                                
+                                >
+                                Tenants Portal
+                            </Button>
+                        </a>
+                    </div>
+                    
                             <h2>Tenants responsibilities</h2>
                             <h4>Tenants must:</h4>
                             <div className="responsibilities-list">
