@@ -1,0 +1,57 @@
+
+.why-use-us-container{
+    padding: 0 10%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.wuu-title{
+    color: rgb(33, 44, 77);
+    font-size: 2.5em;
+}
+
+hr{
+    background-color: rgb(33, 44, 77);
+    height: 5px;
+}
+
+.reasons{
+    display: flex;
+    color: rgb(33, 44, 77);
+    padding: 50px 0;
+    justify-content: start;
+}
+
+.fa-check-circle{
+    font-size: 8em;
+    margin-bottom: 10px;
+}
+
+.reason{
+    text-align: center;
+    padding: 0 5%;
+    width: 33%;
+    font-size: 0.75em;
+    color: rgb(33, 44, 77);
+}
+
+@media screen and (max-width: 660px){
+    .why-use-us-container{
+        text-align: center;
+    }
+    
+    .wuu-title{
+        font-size: 2em;
+    }
+    .reasons{
+        margin: auto;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .reason{
+        margin-bottom: 50px;
+        padding: 0;
+        text-align: center;
+    }
+}

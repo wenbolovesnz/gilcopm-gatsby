@@ -1,0 +1,46 @@
+.services-page{
+    min-height: 100vh;
+    width: 100%;
+    color: rgb(33, 44, 77);
+}
+
+.img-wrapper{
+    background-image: url(/src/house2.jpg);
+    width: 100%;
+    padding: 25px 10%;
+    height: fit-content;
+    background-size: contain no-repeat;
+}
+
+.img-wrapper h1{
+    font-size: 1.75em;
+}
+
+.services-page-container{
+    background-color: #fff;
+    min-height: 65vh;
+    padding: 50px 10%;
+    width: 100%;
+}
+
+.services-title{
+    margin-bottom: 20px;
+}
+
+.section{
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+.service-title h2{
+    font-weight: 500;
+}
+
+.services-info-wrapper{
+    margin-bottom: 50px;
+}
+
+.services-info-wrapper ul{
+    margin-left: 50px;
+
+}

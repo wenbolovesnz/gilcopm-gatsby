@@ -1,0 +1,50 @@
+.contact-wrapper{
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+    text-align: left;
+    background-image: url(../images/Akl\ bridge.jpg);
+    background-size: cover;
+}
+
+.tint{
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 50px 10%;
+    height: fit-content;
+}
+
+.contact-about{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0 20px 0;
+
+}
+
+.profile{
+    width: 150px;
+}
+
+.contact-details{
+    font-size: 1.75em;
+    display: flex;
+    color: rgb(33, 44, 77);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 660px){
+    .contact-about{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 20px 0 20px 0;
+    
+    }
+
+    .contact-details{
+        font-size: 1.25em;
+        margin: 50px;
+    }
+}

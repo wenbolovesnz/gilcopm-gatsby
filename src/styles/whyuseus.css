@@ -1,0 +1,56 @@
+.whyuseus-wrapper {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(33, 44, 77);
+    padding: 25px 10%;
+  }
+
+  .whyuseus-wrapper h1{
+    color: white;
+  }
+
+  .wuu-text-wrapper {
+    margin: 20px;
+  }
+  
+  .wuu-text-wrapper p {
+    margin-bottom: 50px;
+    color: white;
+    font-size: 1.37em;
+    font-weight: 0;
+  }
+  
+  .wuu-list {
+    list-style: circle;
+  }
+  
+  .wuu-item {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .wuu-item p {
+    margin-left: 20px;
+    color: white;
+    font-size: 0.75em;
+  }
+  
+  
+  .profile-wrapper p {
+    color: white;
+
+  }
+  
+  .wuu-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 660px) {
+    .wuu-content-wrapper {
+      flex-direction: column;
+    }
+  }
+  
