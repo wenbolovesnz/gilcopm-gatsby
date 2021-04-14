@@ -5,7 +5,7 @@ function WhyUseUs() {
     return (
         <>
             <div className="whyuseus-wrapper">
-                <h1>About us?</h1>
+                <h1>About us</h1>
                 <div className="wuu-content-wrapper">
                     <div className="wuu-text-wrapper">
                         <p>Managing an investment property is a big deal. There are a lot of things to keep track of and that's not even  									

@@ -37,16 +37,20 @@ const Owners = () => {
                     <h1>Services</h1>
                     <hr/>
                     <div className="service-section" id='full-property-management'>
-                        <h2 className='service-title'>Full property management</h2>
-                        <h3 className='sub-header'>Fees:</h3>
+                        <h2 className='service-title'>Full Property Management</h2>
+                        <h3 className='sub-header'>Fee options:</h3>
+                        <div className="packages">
+                        <h3 className='sub-header package'>Basic Package</h3>
                                 <ul>
-                                    <li>6% + GST on all rent collected</li>	
-                                    <li>$45 + GST per inspection</li>
-                                    <li>5% + GST of the cost of arranging and/or supervising maintenance, repairs or renovations</li>
-                                    <li>$45 + GST / hour for in-house maintenance</li>
-                                    <li>Letting service - 1 week's rent + GST (Capped at $750 + GST.)</li>	
+                                    <li>Lettings, Inspections and Handling fees are charged extra - at competitive rates</li>	
                                 </ul>
-                                <h3 className='sub-header'>Includes:</h3>
+                                <h3 className='sub-header package'>Premuim Package</h3>
+                                <ul>
+                                    <li>Lettings, Inspections and Handling fees are all included</li>
+                                </ul>
+                        </div>
+                        
+                                <h3 className='sub-header'>Both options include:</h3>
                                 <ul>
                                     <li>Rental appraisal</li>	
                                     <li>Marketing of the property</li>
@@ -103,6 +107,11 @@ const Owners = () => {
                                     <li>Inspection with written report, photos & fix list (if Failed)- $129.00 incl. GST</li>
                                     <li>Certification after issues are fixed - $70.00 incl. GST</li>
                                     <li>Inspection with written report, photos & certificate (if Passed) - $199.00 incl. GST</li>
+                                </ul>
+                                <h3 className='sub-header'>Includes:</h3>
+                                <ul>
+                                    <li>Comprehensive inspection with report of all 5 Healthy Homes Standards - Heating, Insulation, 
+                                        Ventilation, Draught Stopping and Drainage & Moisture Ingress</li>
                                 </ul>	
                     </div>
                 </div>
