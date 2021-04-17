@@ -11,7 +11,7 @@ const Tenants = () => {
         <NavBar/>
         <div className="tenants-page">
             <div className="banner">
-            <Image src='house2.jpg' className='background-photo'/>
+            <Image src='Akl bridge.jpg' className='background-photo'/>
 
             <div className="img-wrapper">
                     <div className="tenants-title">
