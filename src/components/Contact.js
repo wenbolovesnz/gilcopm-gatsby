@@ -21,7 +21,7 @@ function Contact() {
 
     return (
         <>
-            <div className="contact-wrapper" id='contacts-page'>
+            <div id='contact' className="contact-wrapper">
                 <Image src='Akl bridge.jpg' className='background-photo'/>
                 <div className="tint">
 

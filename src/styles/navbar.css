@@ -112,5 +112,14 @@
         display: table;
       }
 
+
+
     
+}
+
+@media screen and (max-width: 650px){
+
+  .logo{
+    width: 75%;
+}
 }

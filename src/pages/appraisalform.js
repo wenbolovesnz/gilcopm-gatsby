@@ -1,7 +1,9 @@
 import React from 'react'
 import '../styles/contact.css'
 import '../styles/appraisalform.css'
+import Navbar from '../components/navbar'
 import emailjs from 'emailjs-com'
+
 function AppraisalForm() {
 
     function sendEmail(e){
@@ -20,6 +22,7 @@ function AppraisalForm() {
 
     return (
         <>
+        <Navbar />
             <div className="rental-appraisal" id='freeappraisal'>
                 <h1>Apply for your free rental appraisal</h1>
                 <div className="appraisal-container">

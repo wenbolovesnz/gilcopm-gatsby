@@ -8,6 +8,12 @@ module.exports = {
         path: path.join(__dirname, `src`, `images`),
       },
     },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        duration: 1000
+      }
+    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
   ],

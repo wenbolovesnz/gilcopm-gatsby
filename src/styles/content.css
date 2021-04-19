@@ -3,7 +3,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 75vh;
+    height: 85vh;
 }
 
 .background-photo{
@@ -34,9 +34,16 @@
 .contact-info{
     display: flex;
     font-size: 1.15em;
-    justify-content: center;
-    color: rgb(33, 44, 77);
-    align-items: flex-end;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.contact-info a{
+    text-decoration: none;
+    text-shadow: 1px 1px #222;
+
 }
 
 .contact-info div{
@@ -65,6 +72,9 @@
 
 }
 
+.image-text h1{
+    font-weight: 900;
+}
 
 
 @media screen and (max-width: 960px){
@@ -80,7 +90,7 @@
     }
 
     .image-container{
-        height: 65vh;
+        height: 85vh;
     }
 
 }
@@ -90,11 +100,12 @@ h1{
     font-weight: 550;
     color: white;
 
+
 }
 
 @media screen and (max-width: 1040px){
     h1{
-        font-size: 2em;
+        font-size: 3em;
     }
 }
 
@@ -104,19 +115,15 @@ h1{
         align-items: center;
     }
 
-    .contact-info div, .contact-info a{
+    .contact-info div{
         margin-top: 20px;
 
     }
-    .contact-info div{
-        width: 100%;
-        
-    }
 
     .contact-info div{
-        flex-direction: column;
+        justify-content: center ;
         align-items: center;
-        font-size: 0.2em;
+        width: 100%;
     }
     
     
@@ -126,8 +133,14 @@ h1{
     .contact-info p, .contact-info i{
         font-size: 0.65em;
     }
+
+    .contact-info{
+        flex-direction: column;
+    }
+
+
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     
 }

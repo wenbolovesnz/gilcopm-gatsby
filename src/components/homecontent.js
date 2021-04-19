@@ -4,6 +4,8 @@ import {Button} from '../components/button'
 import { Link } from 'gatsby'
 import Image from "../components/Image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { AnchorLink } from "gatsby-plugin-anchor-links";
+
 import {
   faCoffee,
   faTimes,
@@ -31,7 +33,7 @@ function Content() {
                     <div className="image-buttons image-section">
                         
                         <div className="btns">
-                            <Link to='free-rental-appraisal'>
+                            <Link to='/appraisalform'>
                                 <Button
                                     className='btns'
                                     buttonStyle='btn--primary'
@@ -40,7 +42,7 @@ function Content() {
                                     FREE Rental Appraisal
                                 </Button>
                             </Link>
-                            <Link to='contacts-page' smooth={true} duration={1000}>
+                            <AnchorLink className="stripped" to='/#contact' title="Get in touch!" stripHash>
                                 <Button
                                     className='btns'
                                     buttonStyle='btn--secondary'
@@ -48,7 +50,7 @@ function Content() {
                                     >
                                     Get in touch
                                 </Button>
-                            </Link>
+                            </AnchorLink>
                         </div>
                         <div className="contact-info">
                         <div><FontAwesomeIcon className='contact-icon' icon={faEnvelope} /><a className='contact-link' href='mailto:leonard@gilcopm.co.nz'>leonard@gilcopm.co.nz</a></div>
